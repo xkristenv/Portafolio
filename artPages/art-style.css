@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;}
+
+  
+
+    header {
+        background-color: #3ec9a7; /* Color de fondo del header */
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(37, 34, 34);
+        background-color: #98d9b6; /* Color de fondo del óvalo */
+        padding: 10px 20px;
+        border-radius: 50px; /* Hace que cada enlace tenga forma de óvalo */
+        display: inline-block;
+    }
+    
+    nav ul li a.active {
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: #98d9b6;
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+    
+    .image-container {
+        text-align: center;
+        margin: 20px;
+        width: 100%;
+    }
+    
+    .image-container img {
+        width: 700px; /* Ajusta este valor para cambiar el tamaño de la imagen */
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+
+
+
+    
